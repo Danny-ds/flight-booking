@@ -1,5 +1,26 @@
 # Getting Started
 
+Spring Boot Version: 3.0.7
+
+Java Version: openjdk version "17" 2021-09-14 LTS
+
+Kafka Version: stable 3.4.0
+
+MySQL Version: 8.0
+
+
+# Refer campaign-service.png to know about the overview
+
+API Specs:
+PostMan Collection: https://api.postman.com/collections/1593452-73f8305c-d0cd-4346-9eb5-b47f6ab7f656?access_key=PMAT-01H1FC1RSGP0308SQKNKGNF6TQ
+
+1. Campaign API: (/api/v1/flights/campaign)
+   1. Used to store the file in backend and will return a unique id to check the status.
+2. Campaign Status API: /api/v1/flights/campaign/status/30
+   1. It is used to fetch status of the campaign.
+
+Re
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
